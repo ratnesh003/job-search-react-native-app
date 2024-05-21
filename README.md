@@ -6,10 +6,10 @@ Welcome to the Job Search App, a mobile application developed using React Native
 
 - __3 Page Mobile Application:__ Easy navigation across a sleek and intuitive interface.
 - __Custom Hooks for Fetching Data:__ Efficient data retrieval using custom hooks.
-- Responsive Design: Optimized for various devices, ensuring a consistent user experience.
-- Search Functionality: Powerful search feature to find jobs quickly.
-- Pagination: Smooth pagination for browsing through job listings.
-- Custom Screen Headers: Unique headers for each screen for better user orientation.
+- __Responsive Design:__ Optimized for various devices, ensuring a consistent user experience.
+- __Search Functionality:__ Powerful search feature to find jobs quickly.
+- __Pagination:__ Smooth pagination for browsing through job listings.
+- __Custom Screen Headers:__ Unique headers for each screen for better user orientation.
 
 ## Tech Stack
 
