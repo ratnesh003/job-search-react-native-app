@@ -1,10 +1,11 @@
 {
   "expo": {
-    "name": "job_search_app",
-    "slug": "job_search_app",
+    "name": "Job Search App",
+    "slug": "job-search-app",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
+    "scheme": "job-search-app",
     "userInterfaceStyle": "light",
     "splash": {
       "image": "./assets/splash.png",
@@ -21,10 +22,23 @@
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.ratnesh_tarakant_pasi.jobsearchapp"
     },
     "web": {
-      "favicon": "./assets/favicon.png"
+      "favicon": "./assets/favicon.png",
+      "bundler": "metro"
+    },
+    "plugins": [
+      "expo-router"
+    ],
+    "extra": {
+      "router": {
+        "origin": false
+      },
+      "eas": {
+        "projectId": "ea24d399-91b1-4cd7-a866-5660677225d3"
+      }
     }
   }
 }
